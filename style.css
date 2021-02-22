@@ -1,0 +1,33 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.numeroDisplay{
+    text-align: left;
+    border:  2px solid #0000ff;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+    
+}
+
+body{
+    background-color: #dddddd;
+}
+
+#numeroActual{
+    background-color: white;
+}
+
+.botonCalc{
+ font-size: large;
+ font-weight: bold;
+ font-style: italic;
+ background-color: white;
+color: #0000ff;
+}
+.botonOp{
+    font-size: x-large;
+    background-color: #0000ff;
+   color: #fff;
+   }
