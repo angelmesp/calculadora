@@ -26,14 +26,6 @@ body{
  background-color: white;
 color: #0000ff;
 }
-.botonresultado{
-    font-size: large;
-    font-weight: bold;
-    font-style: italic;
-    background-color: white;
-   color: #0000ff;
-    width: 100%;
-}
 .botonOp{
     font-size: x-large;
     background-color: #0000ff;
