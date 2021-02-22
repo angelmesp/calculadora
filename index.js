@@ -42,7 +42,6 @@ document.getElementById("botonRetro").addEventListener("click", clicRetro)
 
 document.getElementById("botonBorrar").addEventListener("click", clicBorrar)
 
-document.getElementById("total").addEventListener("click", clicTotal)
 
 
 var actualElemento = document.getElementById("numeroActual");
@@ -144,9 +143,10 @@ function clicMult(){
 }
 
 function clicTotal(){
-    console.log(resultado)
-    actualElemento.innerHTML = resultado
-    resultadoElemento.innerHTML = resultado
+    resultado= parseFloat(actual)
+            actual = ""
+            actualElemento.innerHTML = "0"
+            resultadoElemento.innerHTML = resultado
 }
 function clicDiv(){
     if(actual != ""){
